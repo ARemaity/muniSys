@@ -53,8 +53,17 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,7 +72,14 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="Properties\DataSources\Form1.datasource" />
+    <None Include="Properties\DataSources\login.datasource" />
+    <None Include="Properties\DataSources\miny_sys.DAL.DataAccessLayer.datasource" />
+    <None Include="Properties\DataSources\miny_sys.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\miny_sys.Properties.Settings.datasource" />
+    <None Include="Properties\DataSources\Program.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -77,6 +93,131 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\58249-programming-code-signs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin_512dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e5ba79334133d2cb362dd639f755a392.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emptytablerowseparator_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\font-awesome_4-7-0_user_1024_0_00aeef_none.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\header.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ide_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ide_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ide_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ide_32x322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Info_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info_32x322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info_32x323.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info_32x324.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-fc-barcelona-argentina-national-football-team-logo-adidas-5ab6e0237028a4.4051244915219343714594.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lvl220150210081510.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MaxCDN_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minimize Window_26px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minimize Window_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modern-blue-business-technology-background-footage-077433698_prevstill.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modern-blue-business-technology-background-footage-077433698_prevstill1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newemployee_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\passcrack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\personal_logo_1x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pielabelstooltips2_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resize Vertical_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\show_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shutdown_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shutdown_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stackedbar_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tableproperties_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\team_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\team_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
