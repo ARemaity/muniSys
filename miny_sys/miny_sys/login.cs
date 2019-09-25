@@ -50,12 +50,12 @@ namespace miny_sys
 
             sqlconnection = new SqlConnection(@"Data Source=DESKTOP-7KG67PO;Initial Catalog=MunicipalDatabase;Integrated Security=True");
             SqlDataAdapter sda = new SqlDataAdapter("SELECT COUNT(*) FROM login WHERE username='" + b + "' AND password='" + a + "'", sqlconnection);
-            /* in above line the program is selecting the whole data from table and the matching it with the user name and password provided by user. */
-            DataTable dt = new DataTable(); //this is creating a virtual table  
+
+            DataTable dt = new DataTable();
             sda.Fill(dt);
             if (dt.Rows[0][0].ToString() == "1")
             {
-                /* I have made a new page called home page. If the user is successfully authenticated then the form will be moved to the next form */
+               
                 this.Hide();
                 Form1 form = new Form1();
                 form.Show();
