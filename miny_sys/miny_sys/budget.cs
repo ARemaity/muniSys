@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace miny_sys
 {
-    public partial class Form1 : Form
+    public partial class budget : DevExpress.XtraEditors.XtraForm
     {
-        public Form1()
+        public budget()
         {
             InitializeComponent();
         }

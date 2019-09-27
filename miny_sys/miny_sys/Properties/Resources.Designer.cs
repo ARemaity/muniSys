@@ -93,9 +93,29 @@ namespace miny_sys.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Budget_PNG_Pic {
+            get {
+                object obj = ResourceManager.GetObject("Budget-PNG-Pic", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cancel {
             get {
                 object obj = ResourceManager.GetObject("cancel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap decline_729578 {
+            get {
+                object obj = ResourceManager.GetObject("decline_729578", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,6 +213,16 @@ namespace miny_sys.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap img_217364 {
+            get {
+                object obj = ResourceManager.GetObject("img_217364", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Info_32px {
             get {
                 object obj = ResourceManager.GetObject("Info_32px", resourceCulture);
@@ -274,6 +304,16 @@ namespace miny_sys.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap mainlogos {
+            get {
+                object obj = ResourceManager.GetObject("mainlogos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MaxCDN_32px {
             get {
                 object obj = ResourceManager.GetObject("MaxCDN_32px", resourceCulture);
@@ -334,6 +374,16 @@ namespace miny_sys.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap muni {
+            get {
+                object obj = ResourceManager.GetObject("muni", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap newemployee_32x32 {
             get {
                 object obj = ResourceManager.GetObject("newemployee_32x32", resourceCulture);
@@ -374,6 +424,16 @@ namespace miny_sys.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap powerbi_black {
+            get {
+                object obj = ResourceManager.GetObject("powerbi_black", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap preview {
             get {
                 object obj = ResourceManager.GetObject("preview", resourceCulture);
@@ -397,6 +457,16 @@ namespace miny_sys.Properties {
         internal static System.Drawing.Bitmap Resize_Vertical_32px {
             get {
                 object obj = ResourceManager.GetObject("Resize Vertical_32px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sales {
+            get {
+                object obj = ResourceManager.GetObject("Sales", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -437,6 +507,26 @@ namespace miny_sys.Properties {
         internal static System.Drawing.Bitmap stackedbar_32x32 {
             get {
                 object obj = ResourceManager.GetObject("stackedbar_32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap statistics_icon_png_3 {
+            get {
+                object obj = ResourceManager.GetObject("statistics-icon-png-3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Stting {
+            get {
+                object obj = ResourceManager.GetObject("Stting", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

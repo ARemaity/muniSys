@@ -57,7 +57,7 @@ namespace miny_sys
             {
                
                 this.Hide();
-                Form1 form = new Form1();
+                dashboard form = new dashboard();
                 form.Show();
 
             }
