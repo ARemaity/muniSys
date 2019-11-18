@@ -72,5 +72,7 @@ namespace miny_sys.DAL
             }
             sqlcmd.ExecuteNonQuery();
         }
+
+
     }
 }
